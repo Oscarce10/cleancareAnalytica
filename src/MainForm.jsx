@@ -10,7 +10,7 @@ function MainForm() {
                 <Navigation />
                 <main className="demo-page-content">
                     <Head />
-                    <form action="/results" method="get">
+                    <form action="results" method="get">
                         <Generales />
                         <div className="nice-form-group">
                             <input type="submit" value="Analizar" />
