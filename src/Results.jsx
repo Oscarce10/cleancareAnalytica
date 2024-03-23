@@ -25,6 +25,11 @@ function Results() {
                             SAAM: parametros.SAAM,
                         }}
                     />
+                    <div>
+                        <a className="nice-form-group" href="/">
+                            <input type="submit" value="Volver" />
+                        </a>
+                    </div>
                 </main>
             </div>
         </>
