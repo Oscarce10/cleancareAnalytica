@@ -7,10 +7,10 @@ import "../hint.css";
 import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-    <HashRouter>
+    <BrowserRouter>
         <Routes>
             <Route path="/" element={<MainForm />} />
             <Route path="/results" element={<Results />} />
         </Routes>
-    </HashRouter>
+    </BrowserRouter>
 );
