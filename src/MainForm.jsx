@@ -4,10 +4,14 @@ import Head from "./components/form/head";
 import Generales from "./components/form/generales";
 import CompFosforo from "./components/form/comp-fosforo";
 import CompNitrogeno from "./components/form/comp-nitrogeno";
+import logo from "/cleancare-analytica-logo.png";
 
 function MainForm() {
     return (
         <>
+            <div id="only-mb" className="div-logo">
+                <img id="logo" className="logo" src={logo} alt="Cleancare Analytica" />
+            </div>
             <div className="demo-page">
                 <Navigation />
                 <main className="demo-page-content">

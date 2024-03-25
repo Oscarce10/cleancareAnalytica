@@ -428,9 +428,28 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.div-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.logo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
 @media only screen and (max-width: 750px) {
     .demo-page .demo-page-navigation {
         display: none;
+    }
+    #only-mb {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15px 0;
     }
 }
 .demo-page .demo-page-navigation nav {

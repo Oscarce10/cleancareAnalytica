@@ -3,8 +3,8 @@ function Navigation() {
     return (
         <>
             <div className="demo-page-navigation">
-                <div id="div-logo">
-                    <img id="logo" src={logo} alt="Cleancare Analytica" />
+                <div className="div-logo">
+                    <img className="logo" src={logo} alt="Cleancare Analytica" />
                 </div>
                 <nav>
                     <ul>

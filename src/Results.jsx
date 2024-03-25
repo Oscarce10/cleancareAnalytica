@@ -1,17 +1,21 @@
+import "./components/resultados/resultados.scss";
 import React, { useLayoutEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import Head from "./components/resultados/head";
 import Generales from "./components/resultados/generales";
 import parametros from "./data.json";
-import "./components/resultados/resultados.scss";
 import CompFosforo from "./components/resultados/comp-fosforo";
 import CompNitrogeno from "./components/resultados/comp-nitrogeno";
+import logo from "/cleancare-analytica-logo.png";
 
 function Results() {
     const [searchParams, setSearchParams] = useSearchParams();
     useLayoutEffect(() => {}, []);
     return (
         <>
+            <div id="only-mb" className="div-logo">
+                <img id="logo" className="logo" src={logo} alt="Cleancare Analytica" />
+            </div>
             <div className="demo-page">
                 <main className="demo-page-content">
                     <Head />
