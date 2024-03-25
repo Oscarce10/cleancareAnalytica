@@ -1,8 +1,9 @@
+import logo from "/cleancare-analytica-logo.png";
 function Head() {
     return (
         <>
             <div id="div-logo">
-                <img id="logo" src="../../cleancare-analytica-logo.png" alt="" />
+                <img id="logo" src={logo} alt="" />
             </div>
             <section>
                 <div className="href-target" id="Inicio" />

@@ -2,7 +2,7 @@ export default function CompNitrogeno() {
     return (
         <>
             <section>
-                <div className="href-target" id="compNitrogeno" />
+                <div className="href-target" id="compnitrogeno" />
                 <h1>Compuestos de Nitrógeno</h1>
                 <div className="nice-form-group">
                     <label>

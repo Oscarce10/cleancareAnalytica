@@ -1,9 +1,10 @@
+import logo from "/cleancare-analytica-logo.png";
 function Navigation() {
     return (
         <>
             <div className="demo-page-navigation">
                 <div id="div-logo">
-                    <img id="logo" src="../../cleancare-analytica-logo.png" alt="" />
+                    <img id="logo" src={logo} alt="Cleancare Analytica" />
                 </div>
                 <nav>
                     <ul>
@@ -69,8 +70,8 @@ function Navigation() {
                                 Compuestos de Fósforo
                             </a>
                         </li>
-                        {/* <li>
-                            <a href="#checkbox-and-radio">
+                        <li>
+                            <a href="#compnitrogeno">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width={24}
@@ -86,10 +87,10 @@ function Navigation() {
                                     <polyline points="9 11 12 14 22 4" />
                                     <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
                                 </svg>
-                                Checkbox and Radio
+                                Compuestos de Nitrógeno
                             </a>
                         </li>
-                        <li>
+                        {/*<li>
                             <a href="#fieldset">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
