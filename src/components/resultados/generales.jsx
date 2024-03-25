@@ -106,7 +106,6 @@ export default function Generales(props) {
         <>
             <section>
                 <div className="href-target" id="Generales" />
-                <div className="href-target" id="input-types" />
                 <h1>Generales</h1>
 
                 <table>
@@ -141,7 +140,9 @@ export default function Generales(props) {
                             <td>
                                 <strong>DQO</strong>
                             </td>
-                            <td>{DQOResult.value} mg/L O2</td>
+                            <td>
+                                {DQOResult.value} mg/L O<sub>2</sub>
+                            </td>
                             <td
                                 style={{
                                     backgroundColor:
@@ -162,8 +163,11 @@ export default function Generales(props) {
                                     DBO<sub>5</sub>
                                 </strong>
                             </td>
-                            <td>{DBO5Result.value} mg/L O2</td>
+                            <td>
+                                {DBO5Result.value} mg/L O<sub>2</sub>
+                            </td>
                             <td
+                                dangerouslySetInnerHTML={{ __html: DBO5Result.obs }}
                                 style={{
                                     backgroundColor:
                                         DBO5Result.result === "favorable"
@@ -173,9 +177,7 @@ export default function Generales(props) {
                                             : "red",
                                     color: "white",
                                 }}
-                            >
-                                {DBO5Result.obs}
-                            </td>
+                            ></td>
                         </tr>
                         <tr>
                             <td>

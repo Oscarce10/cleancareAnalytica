@@ -1,28 +1,28 @@
 {
     "ph": {
         "favorable": "El PH esta dentro de los valores permisibles",
-        "aceptable": "El PH esta proximo de valores límites permisibles (PH menor a 6 o mayor a 9)",
-        "desfavorable": "El PH  supera los valores límites permisibles PH(menor a 6 o mayor a 9)"
+        "aceptable": "El PH esta próximo a superar los valores límites permisibles (PH menor a 6 o mayor a 9)",
+        "desfavorable": "El PH supera los valores límites permisibles PH(menor a 6 o mayor a 9)"
     },
     "DQO": {
         "favorable": "El DQO esta dentro de los valores permisibles",
-        "aceptable": "El DQO esta proximo de valores límites permisibles (DQO mayor a 200)",
+        "aceptable": "El DQO esta proximo a superar los valores límites permisibles (DQO mayor a 200)",
         "desfavorable": "El DQO  supera los valores límites permisibles (DQO mayor a 200)"
     },
     "DBO5": {
-        "favorable": "El DBO5 esta dentro de los valores permisibles",
-        "aceptable": "El DBO5 esta proximo de valores límites permisibles (DBO5 mayor a 150)",
-        "desfavorable": "El DBO5  supera los valores límites permisibles (DBO5 mayor a 200)"
+        "favorable": "El DBO<sub>5</sub> esta dentro de los valores permisibles",
+        "aceptable": "El DBO<sub>5</sub> esta proximo de valores límites permisibles (DBO5 mayor a 150)",
+        "desfavorable": "El DBO<sub>5</sub>  supera los valores límites permisibles (DBO5 mayor a 200)"
     },
     "SST": {
-        "favorable": "El SST esta dentro de los valores permisibles",
-        "aceptable": "El SST esta proximo de valores límites permisibles (SST mayor a 150)",
-        "desfavorable": "El SST  supera los valores límites permisibles (SST mayor a 150)"
+        "favorable": "Los SST estan dentro de los valores permisibles",
+        "aceptable": "Los SST estan proximos de valores límites permisibles (SST mayor a 150)",
+        "desfavorable": "Los SST superan los valores límites permisibles (SST mayor a 150)"
     },
     "SSED": {
-        "favorable": "El SSED esta dentro de los valores permisibles",
-        "aceptable": "El SSED esta proximo de valores límites permisibles (SSED mayor a 5)",
-        "desfavorable": "El SSED  supera los valores límites permisibles (SSED mayor a 5)"
+        "favorable": "Los SSED estan dentro de los valores permisibles",
+        "aceptable": "Los SSED estan proximos de valores límites permisibles (SSED mayor a 5)",
+        "desfavorable": "Los SSED superan los valores límites permisibles (SSED mayor a 5)"
     },
     "GyA": {
         "favorable": "Las Grasas y Aceites estan dentro de los valores permisibles",
@@ -37,15 +37,25 @@
     "SAAM": {
         "favorable": "Los SAAM solo requieren ser analizados y reportados repecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015"
     },
-    "P-PO4": "Los P-PO43- solo requieren ser analisados y reportados respectoa a lo mencionado en la  RESOLUCIÓN 631 DE 2015 ",
-    "Fósforo Total (P)": {
-        "favorable": "Los Fósforo Total (P) solo requieren ser analizados y reportados repectoa lo mencionado en la  RESOLUCIÓN 31 DE 2015",
-        "desfavorable": "Los Fósforo Total (P) solo requieren ser analisados y reportados repectoa lo mencionado en la  RESOLUCIÓN 631 DE 2015 sin embargo en estos son valores altos a tener encuenta segun algunas normativas internesionales en la que la legislacion japonesa establece un valor maximo de (80 mg/L)  que pueden afectar el medio ambiente. "
+    "ortofostatos": {
+        "favorable": "Los Ortofosfatos solo requieren ser analizados y reportados respecto a a lo mencionado en la RESOLUCIÓN 631 DE 2015"
     },
-    "N-NO3": "Los N-NO3- solo requieren ser analizados y reportados repecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015 ",
-    "N-NO2": "Los N-NO2- solo requieren ser analisados y reportados repectoa lo mencionado en la  RESOLUCIÓN 631 DE 2015 ",
-    "N-NH3": "Los N-NH3- solo requieren ser analizados y reportados respecto a a lo mencionado en la  RESOLUCIÓN 631 DE 2015",
-    "Nitrógeno Total (N)": "Los Nitrógeno Total (N) solo requieren ser analizados y reportados repecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015 ",
+    "fosforoTotal": {
+        "favorable": "El Fósforo Total solo requieren ser analizados y reportados respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015",
+        "aceptable": "El Fósforo Total solo requieren ser analizados y reportados respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015 sin embargo en estos son valores altos a tener en cuenta según algunas normativas internacionales en la que la legislación española establece un valor máximo de (60 mg/L) que pueden afectar el medio ambiente."
+    },
+    "nitratos": {
+        "aceptable": "Los N-NO3- solo requieren ser analizados y reportados repecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015 "
+    },
+    "nitritos": {
+        "aceptable": "Los N-NO2- solo requieren ser analisados y reportados repectoa lo mencionado en la  RESOLUCIÓN 631 DE 2015 "
+    },
+    "nitrogenoAmoniacal": {
+        "aceptable": "Los N-NH3- solo requieren ser analizados y reportados respecto a a lo mencionado en la  RESOLUCIÓN 631 DE 2015"
+    },
+    "nitrogenoTotal": {
+        "aceptable": "Los Nitrógeno Total (N) solo requieren ser analizados y reportados repecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015 "
+    },
     "Cianuro Total": {
         "favorable": "Los Cianuro Total esta dentro de los valores permisibles ",
         "aceptable": "Los Cianuro Total esta proximo de valores límites permisibles (Cianuro Total mayor a 0.5)",

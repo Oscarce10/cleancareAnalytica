@@ -4,6 +4,8 @@ import Head from "./components/resultados/head";
 import Generales from "./components/resultados/generales";
 import parametros from "./data.json";
 import "./components/resultados/resultados.scss";
+import CompFosforo from "./components/resultados/comp-fosforo";
+import CompNitrogeno from "./components/resultados/comp-nitrogeno";
 
 function Results() {
     const [searchParams, setSearchParams] = useSearchParams();
@@ -23,6 +25,20 @@ function Results() {
                             GyA: parametros.GyA,
                             Fenoles: parametros.Fenoles,
                             SAAM: parametros.SAAM,
+                        }}
+                    />
+                    <CompFosforo
+                        compFosforo={{
+                            ortofostatos: parametros.ortofostatos,
+                            fosforoTotal: parametros.fosforoTotal,
+                        }}
+                    />
+                    <CompNitrogeno
+                        nitrogeno={{
+                            nitratos: parametros.nitratos,
+                            nitritos: parametros.nitritos,
+                            nitrogenoAmoniacal: parametros.nitrogenoAmoniacal,
+                            nitrogenoTotal: parametros.nitrogenoTotal,
                         }}
                     />
                     <div>

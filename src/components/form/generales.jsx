@@ -3,7 +3,6 @@ export default function Generales() {
         <>
             <section>
                 <div className="href-target" id="Generales" />
-                <div className="href-target" id="input-types" />
                 <h1>Generales</h1>
                 <div className="nice-form-group">
                     <label>PH</label>
@@ -12,12 +11,18 @@ export default function Generales() {
                 <div className="nice-form-group">
                     <label>Demanda Química de Oxígeno (DQO)</label>
                     <input type="number" name="DQO" required min="0" step="any" />
-                    <span className="infotext">mg/L O2</span>
+                    <span className="infotext">
+                        mg/L O<sub>2</sub>
+                    </span>
                 </div>
                 <div className="nice-form-group">
-                    <label>Demanda Bioquímica de Oxígeno (DBO5)</label>
+                    <label>
+                        Demanda Bioquímica de Oxígeno &#40;DBO<sub>5</sub>&#41;
+                    </label>
                     <input type="number" name="DBO5" required min="0" step="any" />
-                    <span className="infotext">mg/L O2</span>
+                    <span className="infotext">
+                        mg/L O<sub>2</sub>
+                    </span>
                 </div>
                 <div className="nice-form-group">
                     <label>Sólidos Suspendidos Totales (SST)</label>

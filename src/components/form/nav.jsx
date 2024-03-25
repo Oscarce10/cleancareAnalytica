@@ -2,6 +2,9 @@ function Navigation() {
     return (
         <>
             <div className="demo-page-navigation">
+                <div id="div-logo">
+                    <img id="logo" src="../../cleancare-analytica-logo.png" alt="" />
+                </div>
                 <nav>
                     <ul>
                         <li>
@@ -24,7 +27,7 @@ function Navigation() {
                             </a>
                         </li>
                         <li>
-                            <a href="#structure">
+                            <a href="#Generales">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width={24}
@@ -44,8 +47,8 @@ function Navigation() {
                                 Generales
                             </a>
                         </li>
-                        {/* <li>
-                            <a href="#input-types">
+                        <li>
+                            <a href="#compfosforo">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width={24}
@@ -63,10 +66,10 @@ function Navigation() {
                                     <line x1={21} y1={14} x2={3} y2={14} />
                                     <line x1={21} y1={18} x2={3} y2={18} />
                                 </svg>
-                                Input types
+                                Compuestos de Fósforo
                             </a>
                         </li>
-                        <li>
+                        {/* <li>
                             <a href="#checkbox-and-radio">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
