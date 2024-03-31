@@ -7,6 +7,9 @@ import parametros from "./data.json";
 import CompFosforo from "./components/resultados/comp-fosforo";
 import CompNitrogeno from "./components/resultados/comp-nitrogeno";
 import logo from "/cleancare-analytica-logo.png";
+import Iones from "./components/resultados/iones";
+import Metales from "./components/resultados/metales";
+import Otros from "./components/resultados/otros";
 
 function Results() {
     const [searchParams, setSearchParams] = useSearchParams();
@@ -43,6 +46,29 @@ function Results() {
                             nitritos: parametros.nitritos,
                             nitrogenoAmoniacal: parametros.nitrogenoAmoniacal,
                             nitrogenoTotal: parametros.nitrogenoTotal,
+                        }}
+                    />
+                    <Iones
+                        iones={{
+                            cianuro: parametros.cianuro,
+                        }}
+                    />
+                    <Metales
+                        metales={{
+                            cadmio: parametros.cadmio,
+                            cromo: parametros.cromo,
+                            mercurio: parametros.mercurio,
+                            plata: parametros.plata,
+                            plomo: parametros.plomo,
+                        }}
+                    />
+                    <Otros
+                        otros={{
+                            acidez: parametros.acidez,
+                            alcalinidad: parametros.alcalinidad,
+                            dcalcica: parametros.dcalcica,
+                            dureza: parametros.dureza,
+                            color: parametros.color,
                         }}
                     />
                     <div>

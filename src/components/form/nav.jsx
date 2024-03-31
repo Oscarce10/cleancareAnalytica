@@ -90,8 +90,8 @@ function Navigation() {
                                 Compuestos de Nitrógeno
                             </a>
                         </li>
-                        {/*<li>
-                            <a href="#fieldset">
+                        <li>
+                            <a href="#Iones">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     style={{ transform: "rotate(90deg)" }}
@@ -107,11 +107,11 @@ function Navigation() {
                                 >
                                     <path d="M12 3h7a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-7m0-18H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7m0-18v18" />
                                 </svg>
-                                Fieldset
+                                Iones
                             </a>
                         </li>
                         <li>
-                            <a href="#icons">
+                            <a href="#Metales">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width={24}
@@ -128,11 +128,11 @@ function Navigation() {
                                     <line x1={16} y1={8} x2={2} y2={22} />
                                     <line x1="17.5" y1={15} x2={9} y2={15} />
                                 </svg>
-                                Icons
+                                Metales y Metaloides
                             </a>
                         </li>
                         <li>
-                            <a href="#validation">
+                            <a href="#Otros">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width={24}
@@ -149,10 +149,10 @@ function Navigation() {
                                     <line x1={12} y1={9} x2={12} y2={13} />
                                     <line x1={12} y1={17} x2="12.01" y2={17} />
                                 </svg>
-                                Validation
+                                Otros
                             </a>
                         </li>
-                        <li>
+                        {/*<li>
                             <a href="#date">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"

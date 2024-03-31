@@ -10,6 +10,9 @@
 }
 
 @media only screen and (min-width: 750px) {
+    #logo {
+        display: none;
+    }
     .demo-page .demo-page-content {
         width: calc(100% - 18em);
     }
@@ -57,4 +60,9 @@
     --switch-orb-offset: calc(var(--nf-input-border-width) * 2);
     --switch-width: calc(var(--nf-input-size) * 2.5);
     --switch-height: calc(var(--nf-input-size) * 1.25 + var(--switch-orb-offset));
+}
+
+#sec-det {
+    display: grid;
+    grid-template-columns: auto auto;
 }

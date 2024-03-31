@@ -56,40 +56,50 @@
     "nitrogenoTotal": {
         "aceptable": "Los Nitrógeno Total (N) solo requieren ser analizados y reportados repecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015 "
     },
-    "Cianuro Total": {
-        "favorable": "Los Cianuro Total esta dentro de los valores permisibles ",
-        "aceptable": "Los Cianuro Total esta proximo de valores límites permisibles (Cianuro Total mayor a 0.5)",
-        "desfavorable": "Los Cianuro Total supera los valores límites permisibles (Cianuro Total mayor a 0.5)"
+    "cianuro": {
+        "favorable": "El Cianuro Total esta dentro de los valores permisibles",
+        "aceptable": "El Cianuro Total esta próximo a superar los valores límites permisibles (Cianuro Total mayor a 0.5)",
+        "desfavorable": "El Cianuro Total supera los valores límites permisibles (Cianuro Total mayor a 0.5)"
     },
-    "Cadmio": {
-        "favorable": "El Cadmio esta dentro de los valores permisibles ",
-        "aceptable": "El Cadmio esta proximo de valores límites permisibles (Cadmio mayor a 0.05)",
+    "cadmio": {
+        "favorable": "El Cadmio esta dentro de los valores permisibles",
+        "aceptable": "El Cadmio esta próximo a superar los valores límites permisibles (Cadmio mayor a 0.05)",
         "desfavorable": "El Cadmio supera los valores límites permisibles (Cadmio mayor a 0.05)"
     },
-    "Cromo": {
+    "cromo": {
         "favorable": "El Cromo esta dentro de los valores permisibles ",
         "aceptable": "El Cromo esta proximo de valores límites permisibles (Cromo mayor a 0.5)",
         "desfavorable": "El Cromo supera los valores límites permisibles (Cromo mayor a 0.5)"
     },
-    "Mercurio": {
+    "mercurio": {
         "favorable": "El Mercurio esta dentro de los valores permisibles ",
-        "aceptable": "El Mercurio esta proximo de valores límites permisibles (Mercurio mayor a 0.01)",
+        "aceptable": "El Mercurio esta próximo a superar los valores límites (Mercurio mayor a 0.01)",
         "desfavorable": "El Mercurio supera los valores límites permisibles (Mercurio mayor a 0.01)"
     },
-    "Plata": {
-        "favorable": "La Plata solo requieren ser analisados y reportados repectoa lo mencionado en la  RESOLUCIÓN 631 DE 2015 ",
-        "desfavorable": "La Plata solo requieren ser analisados y reportados repectoa lo mencionado en la  RESOLUCIÓN 631 DE 2015 sin embargo en estos son valores altos a tener encuenta segun algunas normativas internesionales en la que la legislacion japonesa establece un valor maximo de (80 mg/L)  que pueden afectar el medio ambiente. "
+    "plata": {
+        "favorable": "La Plata solo requieren ser analizados y reportados respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015",
+        "aceptable": "La Plata solo requieren ser analizados y reportados respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015 sin embargo en estos son valores altos, a tener en cuenta según algunas normativas internacionales como las de EE.UU. que establece un valor máximo de 4,8 (mg/l) y Canadá con 5 (mg/l) que pueden afectar el medio ambiente."
     },
-    "Plomo": {
+    "plomo": {
         "favorable": "El Plomo esta dentro de los valores permisibles ",
-        "aceptable": "El Plomo esta proximo de valores límites permisibles (Plomo mayor a 0.1)",
+        "aceptable": "El Plomo esta próximo a superar los valores límites permisibles (Plomo mayor a 0.1)",
         "desfavorable": "El Plomo supera los valores límites permisibles (Plomo mayor a 0.1)"
     },
-    "Acidez Total": "La Acidez Total solo requiere ser analisado y reportado respecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015",
-    "Alcalinidad Total": "La Alcalinidad Total solo requiere ser analizado y reportado respecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015",
-    "Dureza Cálcica": "La Dureza Cálcica solo requiere ser analizado y reportado respecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015",
-    "Dureza Total": "La Dureza Total solo requiere ser analizado y reportado respecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015",
-    "Color Real": "El Color Real solo requiere ser analizado y reportado respecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015",
+    "acidez": {
+        "favorable": "La Acidez Total solo requiere ser analizada y reportada respecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015"
+    },
+    "alcalinidad": {
+        "favorable": "La Alcalinidad Total solo requiere ser analizada y reportada respecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015"
+    },
+    "dcalcica": {
+        "favorable": "La Dureza Cálcica solo requiere ser analizada y reportada respecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015"
+    },
+    "dureza": {
+        "favorable": "La Dureza Total solo requiere ser analizada y reportada respecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015"
+    },
+    "color": {
+        "favorable": "El Color Real solo requiere ser analizado y reportado respecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015"
+    },
     "Alkazyme": {
         "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Alkazyme (link a protocolo de uso del producto)"
     },

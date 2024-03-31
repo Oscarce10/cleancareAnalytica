@@ -5,6 +5,10 @@ import Generales from "./components/form/generales";
 import CompFosforo from "./components/form/comp-fosforo";
 import CompNitrogeno from "./components/form/comp-nitrogeno";
 import logo from "/cleancare-analytica-logo.png";
+import Iones from "./components/form/iones";
+import Metales from "./components/form/metales";
+import Otros from "./components/form/otros";
+import Detergentes from "./components/form/detergentes";
 
 function MainForm() {
     return (
@@ -20,7 +24,10 @@ function MainForm() {
                         <Generales />
                         <CompFosforo />
                         <CompNitrogeno />
-
+                        <Iones />
+                        <Metales />
+                        <Otros />
+                        <Detergentes />
                         <div className="nice-form-group">
                             <input type="submit" value="Analizar" />
                         </div>
