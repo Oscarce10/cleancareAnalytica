@@ -45,16 +45,16 @@
         "aceptable": "El Fósforo Total solo requieren ser analizados y reportados respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015 sin embargo en estos son valores altos a tener en cuenta según algunas normativas internacionales en la que la legislación española establece un valor máximo de (60 mg/L) que pueden afectar el medio ambiente."
     },
     "nitratos": {
-        "aceptable": "Los N-NO3- solo requieren ser analizados y reportados repecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015 "
+        "favorable": "Los N-NO3- solo requieren ser analizados y reportados repecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015 "
     },
     "nitritos": {
-        "aceptable": "Los N-NO2- solo requieren ser analisados y reportados repectoa lo mencionado en la  RESOLUCIÓN 631 DE 2015 "
+        "favorable": "Los N-NO2- solo requieren ser analisados y reportados repectoa lo mencionado en la  RESOLUCIÓN 631 DE 2015 "
     },
     "nitrogenoAmoniacal": {
-        "aceptable": "Los N-NH3- solo requieren ser analizados y reportados respecto a a lo mencionado en la  RESOLUCIÓN 631 DE 2015"
+        "favorable": "Los N-NH3- solo requieren ser analizados y reportados respecto a a lo mencionado en la  RESOLUCIÓN 631 DE 2015"
     },
     "nitrogenoTotal": {
-        "aceptable": "Los Nitrógeno Total (N) solo requieren ser analizados y reportados repecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015 "
+        "favorable": "Los Nitrógeno Total (N) solo requieren ser analizados y reportados repecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015 "
     },
     "cianuro": {
         "favorable": "El Cianuro Total esta dentro de los valores permisibles",

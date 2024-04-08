@@ -11,25 +11,25 @@ export default function CompNitrogeno(props) {
     useEffect(() => {
         const nitratos = props.nitrogeno.nitratos;
         setNitratosResult((state) => ({ ...state, value: Number(searchParams.get("nitratos")) }));
-        setNitratosResult((state) => ({ ...state, result: "aceptable", obs: nitratos.aceptable }));
+        setNitratosResult((state) => ({ ...state, result: "favorable", obs: nitratos.favorable }));
     }, [nitratosResult.value]);
 
     useEffect(() => {
         const nitritos = props.nitrogeno.nitratos;
         setNitritosResult((state) => ({ ...state, value: Number(searchParams.get("nitritos")) }));
-        setNitritosResult((state) => ({ ...state, result: "aceptable", obs: nitritos.aceptable }));
+        setNitritosResult((state) => ({ ...state, result: "favorable", obs: nitritos.favorable }));
     }, [nitritosResult.value]);
 
     useEffect(() => {
         const nitrogenoAmoniacal = props.nitrogeno.nitrogenoAmoniacal;
         setNitrogenoAmoniacalResult((state) => ({ ...state, value: Number(searchParams.get("nitrogenoAmoniacal")) }));
-        setNitrogenoAmoniacalResult((state) => ({ ...state, result: "aceptable", obs: nitrogenoAmoniacal.aceptable }));
+        setNitrogenoAmoniacalResult((state) => ({ ...state, result: "favorable", obs: nitrogenoAmoniacal.favorable }));
     }, [nitrogenoAmoniacalResult.value]);
 
     useEffect(() => {
         const nitrogenoTotal = props.nitrogeno.nitrogenoTotal;
         setNitrogenoTotalResult((state) => ({ ...state, value: Number(searchParams.get("nitrogenoTotal")) }));
-        setNitrogenoTotalResult((state) => ({ ...state, result: "aceptable", obs: nitrogenoTotal.aceptable }));
+        setNitrogenoTotalResult((state) => ({ ...state, result: "favorable", obs: nitrogenoTotal.favorable }));
     }, [nitrogenoTotalResult.value]);
 
     return (
@@ -62,7 +62,7 @@ export default function CompNitrogeno(props) {
                                     backgroundColor:
                                         nitratosResult.result === "favorable"
                                             ? "green"
-                                            : nitratosResult.result === "aceptable"
+                                            : nitratosResult.result === "favorable"
                                             ? "orange"
                                             : "red",
                                     color: "white",
@@ -87,7 +87,7 @@ export default function CompNitrogeno(props) {
                                     backgroundColor:
                                         nitritosResult.result === "favorable"
                                             ? "green"
-                                            : nitritosResult.result === "aceptable"
+                                            : nitritosResult.result === "favorable"
                                             ? "orange"
                                             : "red",
                                     color: "white",
@@ -106,7 +106,7 @@ export default function CompNitrogeno(props) {
                                     backgroundColor:
                                         nitrogenoAmoniacalResult.result === "favorable"
                                             ? "green"
-                                            : nitrogenoAmoniacalResult.result === "aceptable"
+                                            : nitrogenoAmoniacalResult.result === "favorable"
                                             ? "orange"
                                             : "red",
                                     color: "white",
@@ -125,7 +125,7 @@ export default function CompNitrogeno(props) {
                                     backgroundColor:
                                         nitrogenoTotalResult.result === "favorable"
                                             ? "green"
-                                            : nitrogenoTotalResult.result === "aceptable"
+                                            : nitrogenoTotalResult.result === "favorable"
                                             ? "orange"
                                             : "red",
                                     color: "white",

@@ -87,9 +87,9 @@ export default function Generales(props) {
     useEffect(() => {
         const Fenoles = props.generales.Fenoles;
         setFenolesResult((state) => ({ ...state, value: Number(searchParams.get("Fenoles")) }));
-        if (0 < FenolesResult.value && FenolesResult.value < 4) {
+        if (0 < FenolesResult.value && FenolesResult.value < 0.15) {
             setFenolesResult((state) => ({ ...state, result: "favorable", obs: Fenoles.favorable }));
-        } else if (4 <= FenolesResult.value && FenolesResult.value <= 5) {
+        } else if (0.15 <= FenolesResult.value && FenolesResult.value <= 0.2) {
             setFenolesResult((state) => ({ ...state, result: "aceptable", obs: Fenoles.aceptable }));
         } else {
             setFenolesResult((state) => ({ ...state, result: "desfavorable", obs: Fenoles.desfavorable }));
