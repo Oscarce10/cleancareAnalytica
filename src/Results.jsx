@@ -10,6 +10,7 @@ import logo from "/cleancare-analytica-logo.png";
 import Iones from "./components/resultados/iones";
 import Metales from "./components/resultados/metales";
 import Otros from "./components/resultados/otros";
+import Detergentes from "./components/resultados/detergentes";
 
 function Results() {
     const [searchParams, setSearchParams] = useSearchParams();
@@ -71,6 +72,7 @@ function Results() {
                             color: parametros.color,
                         }}
                     />
+                    {/* <Detergentes /> */}
                     <div>
                         <a className="nice-form-group" href="/">
                             <input type="submit" value="Volver" />

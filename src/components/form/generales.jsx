@@ -2,6 +2,9 @@ export default function Generales() {
     return (
         <>
             <section>
+                <strong>Ingrese a continuación los datos del laboratorio de vertimientos de su clinica</strong>
+            </section>
+            <section>
                 <div className="href-target" id="Generales" />
                 <h1>Generales</h1>
                 <div className="nice-form-group">

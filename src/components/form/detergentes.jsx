@@ -10,10 +10,6 @@ export default function Detergentes() {
                     <input type="checkbox" name="d-2" />
                     <label for="check-1">BONZYME</label>
                 </div>
-                <div class="nice-form-group">
-                    <input type="checkbox" name="d-1" />
-                    <label for="check-1">BONZYME</label>
-                </div>
 
                 <div class="nice-form-group">
                     <input type="checkbox" name="d-3" />
