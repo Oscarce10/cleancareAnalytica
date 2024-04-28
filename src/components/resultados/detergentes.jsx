@@ -16,11 +16,9 @@ export default function Detergentes(props) {
 
     useEffect(() => {
         const detergentes = props.detergentes;
-        let obs;
-        let result;
-        if (searchParams.has("d01")) {
-            obs = "Sin observaciones";
-            result = "favorable";
+        if (searchParams.get("d01")) {
+            let obs = "Sin observaciones";
+            let result = "favorable";
             if (ph >= 7 && ph <= 9 && nitrogenoAmoniacal > 1 && nitrogenoTotal > 1 && DQO >= 180 && DQO > DBO5) {
                 obs = detergentes.d01.desfavorable;
                 result = "desfavorable";
@@ -34,9 +32,9 @@ export default function Detergentes(props) {
                 },
             ]);
         }
-        if (searchParams.has("d02")) {
-            obs = "Sin observaciones";
-            result = "favorable";
+        if (searchParams.get("d02")) {
+            let obs = "Sin observaciones";
+            let result = "favorable";
             if (ph >= 8.5 && ph <= 12 && DQO >= 180) {
                 obs = detergentes.d02.desfavorable;
                 result = "desfavorable";
@@ -50,9 +48,9 @@ export default function Detergentes(props) {
                 },
             ]);
         }
-        if (searchParams.has("d03")) {
-            obs = "Sin observaciones";
-            result = "favorable";
+        if (searchParams.get("d03")) {
+            let obs = "Sin observaciones";
+            let result = "favorable";
             if (ph >= 5 && ph <= 9 && nitrogenoAmoniacal > 1 && nitrogenoTotal > 1 && DQO >= 180 && DQO > DBO5) {
                 obs = detergentes.d03.desfavorable;
                 result = "desfavorable";
@@ -66,9 +64,9 @@ export default function Detergentes(props) {
                 },
             ]);
         }
-        if (searchParams.has("d04")) {
-            obs = "Sin observaciones";
-            result = "favorable";
+        if (searchParams.get("d04")) {
+            let obs = "Sin observaciones";
+            let result = "favorable";
             if (nitrogenoAmoniacal > 1 && nitrogenoTotal > 1 && DQO >= 180 && DQO > DBO5) {
                 obs = detergentes.d04.desfavorable;
                 result = "desfavorable";
@@ -82,9 +80,9 @@ export default function Detergentes(props) {
                 },
             ]);
         }
-        if (searchParams.has("d05")) {
-            obs = "Sin observaciones";
-            result = "favorable";
+        if (searchParams.get("d05")) {
+            let obs = "Sin observaciones";
+            let result = "favorable";
             if (ph >= 6 && ph <= 8 && nitrogenoAmoniacal > 1 && nitrogenoTotal > 1 && DQO >= 180 && DQO > DBO5) {
                 obs = detergentes.d05.desfavorable;
                 result = "desfavorable";
@@ -98,9 +96,9 @@ export default function Detergentes(props) {
                 },
             ]);
         }
-        if (searchParams.has("d06")) {
-            obs = "Sin observaciones";
-            result = "favorable";
+        if (searchParams.get("d06")) {
+            let obs = "Sin observaciones";
+            let result = "favorable";
             if (ph >= 3.5 && ph <= 6) {
                 obs = detergentes.d06.desfavorable;
                 result = "desfavorable";
@@ -114,9 +112,9 @@ export default function Detergentes(props) {
                 },
             ]);
         }
-        if (searchParams.has("d07")) {
-            obs = "Sin observaciones";
-            result = "favorable";
+        if (searchParams.get("d07")) {
+            let obs = "Sin observaciones";
+            let result = "favorable";
             if (
                 ph >= 1.5 &&
                 ph <= 6 &&
@@ -138,9 +136,9 @@ export default function Detergentes(props) {
                 },
             ]);
         }
-        if (searchParams.has("d08")) {
-            obs = "Sin observaciones";
-            result = "favorable";
+        if (searchParams.get("d08")) {
+            let obs = "Sin observaciones";
+            let result = "favorable";
             if (ph >= 1.5 && ph <= 6 && ortofosfatos > 1 && fosforoTotal > 1) {
                 obs = detergentes.d08.desfavorable;
                 result = "desfavorable";
@@ -154,9 +152,9 @@ export default function Detergentes(props) {
                 },
             ]);
         }
-        if (searchParams.has("d09")) {
-            obs = "Sin observaciones";
-            result = "favorable";
+        if (searchParams.get("d09")) {
+            let obs = "Sin observaciones";
+            let result = "favorable";
             if (ph >= 1.5 && ph <= 6.5 && (DQO > 180 || DBO5 > 145)) {
                 obs = detergentes.d09.desfavorable;
                 result = "desfavorable";
@@ -170,9 +168,9 @@ export default function Detergentes(props) {
                 },
             ]);
         }
-        if (searchParams.has("d10")) {
-            obs = "Sin observaciones";
-            result = "favorable";
+        if (searchParams.get("d10")) {
+            let obs = "Sin observaciones";
+            let result = "favorable";
             if (GyA > 8) {
                 obs = detergentes.d10.desfavorable;
                 result = "desfavorable";
@@ -186,9 +184,9 @@ export default function Detergentes(props) {
                 },
             ]);
         }
-        if (searchParams.has("d11")) {
-            obs = "Sin observaciones";
-            result = "favorable";
+        if (searchParams.get("d11")) {
+            let obs = "Sin observaciones";
+            let result = "favorable";
             if (ph >= 8.5 && ph <= 9 && nitrogenoAmoniacal > 1 && nitrogenoTotal > 1 && DQO >= 180) {
                 obs = detergentes.d11.desfavorable;
                 result = "desfavorable";
@@ -202,9 +200,9 @@ export default function Detergentes(props) {
                 },
             ]);
         }
-        if (searchParams.has("d12")) {
-            obs = "Sin observaciones";
-            result = "favorable";
+        if (searchParams.get("d12")) {
+            let obs = "Sin observaciones";
+            let result = "favorable";
             if (nitrogenoAmoniacal > 1 && nitrogenoTotal > 1 && DQO >= 180 && DQO > DBO5) {
                 obs = detergentes.d12.desfavorable;
                 result = "desfavorable";
@@ -218,9 +216,9 @@ export default function Detergentes(props) {
                 },
             ]);
         }
-        if (searchParams.has("d13")) {
-            obs = "Sin observaciones";
-            result = "favorable";
+        if (searchParams.get("d13")) {
+            let obs = "Sin observaciones";
+            let result = "favorable";
             if (GyA > 8) {
                 obs = detergentes.d13.desfavorable;
                 result = "desfavorable";
@@ -234,9 +232,9 @@ export default function Detergentes(props) {
                 },
             ]);
         }
-        if (searchParams.has("d14")) {
-            obs = "Sin observaciones";
-            result = "favorable";
+        if (searchParams.get("d14")) {
+            let obs = "Sin observaciones";
+            let result = "favorable";
             if (ph >= 1.5 && ph <= 6.5 && fosforoTotal > 1 && ortofosfatos > 1) {
                 obs = detergentes.d14.desfavorable;
                 result = "desfavorable";
@@ -250,9 +248,9 @@ export default function Detergentes(props) {
                 },
             ]);
         }
-        if (searchParams.has("d15")) {
-            obs = "Sin observaciones";
-            result = "favorable";
+        if (searchParams.get("d15")) {
+            let obs = "Sin observaciones";
+            let result = "favorable";
             if (ph >= 6.5 && ph <= 7.5 && (DQO > 180 || DBO5 > 145)) {
                 obs = detergentes.d15.desfavorable;
                 result = "desfavorable";
@@ -266,9 +264,9 @@ export default function Detergentes(props) {
                 },
             ]);
         }
-        if (searchParams.has("d16")) {
-            obs = "Sin observaciones";
-            result = "favorable";
+        if (searchParams.get("d16")) {
+            let obs = "Sin observaciones";
+            let result = "favorable";
             if (ph >= 6.8 && ph <= 8 && nitrogenoTotal > 20 && nitrogenoTotal < 70 && DBO5 >= 110) {
                 obs = detergentes.d16.desfavorable;
                 result = "desfavorable";
