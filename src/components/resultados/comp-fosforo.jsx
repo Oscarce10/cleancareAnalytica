@@ -8,7 +8,7 @@ export default function CompFosforo(props) {
 
     useEffect(() => {
         const fosforoTotal = props.compFosforo.fosforoTotal;
-        setFosforoTotalResult((state) => ({ ...state, value: Number(searchParams.get("fosforo-total")) }));
+        setFosforoTotalResult((state) => ({ ...state, value: Number(searchParams.get("fosforoTotal")) }));
         if (0 < fosforoTotalResult.value && fosforoTotalResult.value < 60) {
             setFosforoTotalResult((state) => ({ ...state, result: "favorable", obs: fosforoTotal.favorable }));
         } else {

@@ -27,7 +27,7 @@ function MainForm() {
                         <Iones />
                         <Metales />
                         <Otros />
-                        {/* <Detergentes /> */}
+                        <Detergentes />
                         <div className="nice-form-group">
                             <input type="submit" value="Analizar" />
                         </div>

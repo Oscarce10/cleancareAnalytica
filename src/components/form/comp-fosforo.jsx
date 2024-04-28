@@ -13,7 +13,7 @@ export default function CompFosforo() {
                 </div>
                 <div className="nice-form-group">
                     <label>Fósforo Total (P)</label>
-                    <input type="number" name="fosforo-total" required min="0" step="any" />
+                    <input type="number" name="fosforoTotal" required min="0" step="any" />
                     <span className="infotext">mg/L</span>
                 </div>
             </section>

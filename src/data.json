@@ -100,46 +100,52 @@
     "color": {
         "favorable": "El Color Real solo requiere ser analizado y reportado respecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015"
     },
-    "Alkazyme": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Alkazyme (link a protocolo de uso del producto)"
+    "d01": {
+        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Alkazyme ,se sugiere una revisión del manual de uso del producto ,links sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EbY-ekknPwJNv85jQt7y3HcBWkS9HBB8j5Qei9Ds6DnmXg?e=I6IsfL' target='_blank' >ALKAZYME.pdf</a>)"
     },
-    "BONZYME": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del BONZYME (link a protocolo de uso del producto)"
+    "d02": {
+        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del BONZYME ,se sugiere una rebicion del manual de uso del producto ,links sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/ETTlrWt5nAxPmVmxr9rdhjwBsg3bf7CYHfApFuOUvE8Jgg?e=8HoQ1e' target='_blank' >BONZYME.pdf</a>)"
     },
-    "ENZIDINA PLUS": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del ENZIDINA PLUS (link a protocolo de uso del producto)"
+    "d03": {
+        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del ENZIDINA PLUS®, se sugiere una revisión del manual de uso del producto ,links sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/Ec1J7MyJzghFvf5PQHeWgS8BVYuYjPs9RA-uYY0ohvcaAA?e=OTCRrb' target='_blank' >ENZIDINA-PLUS.pdf</a>)"
     },
-    "Enzymax-AHS": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Enzymax-AHS (link a protocolo de uso del producto)"
+    "d04": {
+        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Enzymax-AHS ,se sugiere una revisión del manual de uso del producto ,links sugerido (<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/Eb3Sy0Mm2JVKsKoxj1d3Hv8Bgp39MCI0y5NvZEX1IEt3lw?e=l8e9Mn' target='_blank' >Enzymax-ahs.pdf</a>)"
     },
-    "Glutfar Plus HLD": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Glutfar Plus HLD (link a protocolo de uso del producto)"
+    "d05": {
+        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del EUCIDA ADVANCED ,se sugiere una revisión del manual de uso del producto ,links sugerido (<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EYxfbAzhx6xOnohQ3FNtn-YBF41acIZVoVEskLVXMuWJGw?e=SSfboS' target='_blank' >Eucida Advanced.pdf</a>)"
     },
-    "Ironcleaner": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Ironcleaner (link a protocolo de uso del producto)"
+    "d06": {
+        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Glutfar Plus HLD ,se sugiere una revisión del manual de uso del producto ,links sugerido (<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EfddUhLs8HZLk28uMvfo8_gB2dn47g80SiB98t_Z4tHtFg?e=gjm6O1' target='_blank' >GLUTFAR PLUS.pdf</a>)"
     },
-    "OXIVIR FIVE 16": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del OXIVIR FIVE 16 (link a protocolo de uso del producto)"
+    "d07": {
+        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Ironcleaner ,se sugiere una revisión del manual de uso del producto ,links sugerido (<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EfzCdeW3zshInxXnYIM3FQ0BhRbmU8MY9DmzGNOHWHQsZw?e=7JgjF8' target='_blank' >Ironcleaner.pdf</a>)"
     },
-    "Premixslip": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Premixslip (link a protocolo de uso del producto)"
+    "d08": {
+        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del OXIVIR FIVE 16 ,se sugiere una revisión del manual de uso del producto ,links sugerido (<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EdUcYPjXhoxMv2hBVJfhixUBcoTlQ4ZTi1rbswxXuuSg9g?e=JdbQaw' target='_blank' >OXIVIR FIVE 16.pdf</a>)"
     },
-    "Proasepsis": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Proasepsis (link a protocolo de uso del producto)"
+    "d09": {
+        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del PERIFAR QX ,se sugiere una revisión del manual de uso del producto ,links sugerido (<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EXO2oWDsg-ROrM2ptCJD75sBevxsrIkUUGYcSG9O_rOrWQ?e=tCAj9b' target='_blank' >PERIFAR QX.pdf</a>)"
     },
-    "Prodet-Uno DETERGENTE ENZIMÁTICO": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Prodet-Uno DETERGENTE ENZIMÁTICO (link a protocolo de uso del producto)"
+    "d10": {
+        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Premixslip ,se sugiere una revisión del manual de uso del producto ,links sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EUPSed7nbvJPjA3f9GDEy6cBhH1MchOQ_JdAx3S4ckLDdA?e=oCaP2N'  target='_blank' >PREMIXSLIP.pdf</a>"
     },
-    "Prolub-UNO LUBRICANTE PARA INSTRUMENTAL QUIRÚRGICO": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Prolub-UNO LUBRICANTE PARA INSTRUMENTAL QUIRÚRGICO (link a protocolo de uso del producto)"
+    "d11": {
+        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Proasepsis ,se sugiere una revisión del manual de uso del producto ,links sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EUAuB-voXMhBuoWfvNa27jsBdlbjzyKy5jAJRhjtDhB5GQ?e=0IbXIx' target='_blank' >PROASEPSIS.pdf</a>)"
     },
-    "Surgistain": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Surgistain (link a protocolo de uso del producto)"
+    "d12": {
+        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Prodet-Uno ,se sugiere una revisión del manual de uso del producto ,links sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/ESOEJEtc2ztBjXnND0o-sIYBoR_o6YRkkBBTB5p5K5QXog?e=1yzduq' target='_blank' >Prodet Uno.pdf</a>)"
     },
-    "WEST ZYMME ULTRA": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del WEST ZYMME ULTRA (link a protocolo de uso del producto)"
+    "d13": {
+        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Prolub-UNO ,se sugiere una revisión del manual de uso del producto ,links sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EZuMhMUItxFAnIRUyqgWqecB6QKE76oWuarMHeDg-iPttw?e=0T0FU0' target='_blank' >Prolub-UNO.pdf</a>)"
     },
-    "Residuos Anatomopatológicos": {
-        "desfavorable": "Posiblemente se está dejando pasar grandes cantidades de materia orgánica (Sangre ,tejidos, liquido amniotico, excreciones ETC)"
+    "d14": {
+        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Surgistain ,se sugiere una revisión del manual de uso del producto ,links sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EcwNsAtYeC5Pg21WM08v3fYBY_XR2dDyg5ZgcNSqm26_NA?e=iDHoAw' target='_blank' >Surgistain.pdf</a>)"
+    },
+    "d15": {
+        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del WEST ZYMME ULTRA,se sugiere una revisión del manual de uso del producto ,links sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EaUur06nDWZEjTIFUwxMwv0BGRJTqQ1vdGXprL6tR77ucg?e=Sv7SGx' target='_blank' >West zymme ultra.pdf</a>)"
+    },
+    "d16": {
+        "desfavorable": "Posiblemente se está dejando pasar grandes cantidades de materia orgánica (Sangre ,tejidos, líquido amniótico, excreciones ETC )"
     }
 }
