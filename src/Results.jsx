@@ -110,7 +110,7 @@ function Results() {
 
                         {/* button to generate pdf */}
 
-                        <button onClick={convertToPdf}>Convert to PDF</button>
+                        <button onClick={convertToPdf}>Imprimir reporte</button>
 
                         <div>
                             <a className="nice-form-group" href="/">
