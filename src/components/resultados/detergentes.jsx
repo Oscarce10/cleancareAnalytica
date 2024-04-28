@@ -297,23 +297,26 @@ export default function Detergentes(props) {
                 <div className="href-target" id="Detergentes" />
                 <h1>Detergentes</h1>
 
-                <table>
+                <table
+                    style={{
+                        width: "100%",
+                    }}
+                >
                     <thead>
                         <tr>
-                            <td scope="col">Item</td>
-                            <td scope="col">Resultado</td>
+                            <th scope="col">Item</th>
+                            <th scope="col">Resultado</th>
                         </tr>
                     </thead>
                     <tbody>
                         {listDetegentes.map((detergente, index) => (
-                            <tr key={index}>
+                            <tr key={index} className="tr-2">
                                 <td>
                                     <strong>{detergente.name}</strong>
                                 </td>
                                 <td
                                     dangerouslySetInnerHTML={{ __html: detergente.obs }}
                                     style={{
-                                        width: "600px",
                                         backgroundColor:
                                             detergente.result === "favorable"
                                                 ? "green"
