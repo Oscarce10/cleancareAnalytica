@@ -13,6 +13,7 @@ import Iones from "./components/resultados/iones";
 import Metales from "./components/resultados/metales";
 import Otros from "./components/resultados/otros";
 import Detergentes from "./components/resultados/detergentes";
+import Footer from "./Footer";
 
 function Results() {
     const [searchParams, setSearchParams] = useSearchParams();
@@ -52,7 +53,7 @@ function Results() {
                         />
                         <CompFosforo
                             compFosforo={{
-                                ortofostatos: parametros.ortofostatos,
+                                ortofosfatos: parametros.ortofosfatos,
                                 fosforoTotal: parametros.fosforoTotal,
                             }}
                         />
@@ -117,6 +118,7 @@ function Results() {
                                 <input type="submit" value="Volver" />
                             </a>
                         </div>
+                        <Footer />
                     </main>
                 </div>
             </div>

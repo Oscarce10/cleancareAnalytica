@@ -16,8 +16,8 @@
     },
     "SST": {
         "favorable": "Los SST estan dentro de los valores permisibles",
-        "aceptable": "Los SST estan proximos de valores límites permisibles (SST mayor a 150)",
-        "desfavorable": "Los SST superan los valores límites permisibles (SST mayor a 150)"
+        "aceptable": "Los SST estan proximos de valores límites permisibles (SST mayor a 50)",
+        "desfavorable": "Los SST superan los valores límites permisibles (SST mayor a 50)"
     },
     "SSED": {
         "favorable": "Los SSED estan dentro de los valores permisibles",
@@ -26,7 +26,7 @@
     },
     "GyA": {
         "favorable": "Las Grasas y Aceites estan dentro de los valores permisibles",
-        "aceptable": "Las Grasas y Aceites estan proximas de valores límites permisibles (Grasas y Aceites mayor a 150)",
+        "aceptable": "Las Grasas y Aceites estan proximas de valores límites permisibles (Grasas y Aceites mayor a 10)",
         "desfavorable": "Las Grasas y Aceites superan los valores límites permisibles (Grasas y Aceites mayor a 150)"
     },
     "Fenoles": {
@@ -37,12 +37,12 @@
     "SAAM": {
         "favorable": "Los SAAM solo requieren ser analizados y reportados repecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015"
     },
-    "ortofostatos": {
+    "ortofosfatos": {
         "favorable": "Los Ortofosfatos solo requieren ser analizados y reportados respecto a a lo mencionado en la RESOLUCIÓN 631 DE 2015"
     },
     "fosforoTotal": {
         "favorable": "El Fósforo Total solo requieren ser analizados y reportados respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015",
-        "aceptable": "El Fósforo Total solo requieren ser analizados y reportados respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015 sin embargo en estos son valores altos a tener en cuenta según algunas normativas internacionales en la que la legislación española establece un valor máximo de (60 mg/L) que pueden afectar el medio ambiente."
+        "aceptable": "El Fósforo Total solo requiere ser analizado y reportados respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015. Sin embargo, estos valores pueden considerarse altos según algunas normativas internacionales como la legislación española que establece un valor máximo de (60 mg/L) como limite permitido."
     },
     "nitratos": {
         "favorable": "Los N-NO3- solo requieren ser analizados y reportados repecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015 "
@@ -78,7 +78,7 @@
     },
     "plata": {
         "favorable": "La Plata solo requieren ser analizados y reportados respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015",
-        "aceptable": "La Plata solo requieren ser analizados y reportados respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015 sin embargo en estos son valores altos, a tener en cuenta según algunas normativas internacionales como las de EE.UU. que establece un valor máximo de 4,8 (mg/l) y Canadá con 5 (mg/l) que pueden afectar el medio ambiente."
+        "aceptable": "El Fósforo Total solo requiere ser analizado y reportados respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015. Sin embargo, estos valores pueden considerarse altos según algunas normativas internacionales como la legislación española que establece un valor máximo de (60 mg/L) como limite permitido."
     },
     "plomo": {
         "favorable": "El Plomo esta dentro de los valores permisibles ",

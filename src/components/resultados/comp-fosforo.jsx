@@ -3,13 +3,13 @@ import { useSearchParams } from "react-router-dom";
 
 export default function CompFosforo(props) {
     const [searchParams, setSearchParams] = useSearchParams();
-    const [ortofostatosResult, setOrtofostatosResult] = useState({});
+    const [ortofosfatosResult, setortofosfatosResult] = useState({});
     const [fosforoTotalResult, setFosforoTotalResult] = useState({});
 
     useEffect(() => {
         const fosforoTotal = props.compFosforo.fosforoTotal;
         setFosforoTotalResult((state) => ({ ...state, value: Number(searchParams.get("fosforoTotal")) }));
-        if (0 < fosforoTotalResult.value && fosforoTotalResult.value < 60) {
+        if (0 <= fosforoTotalResult.value && fosforoTotalResult.value < 60) {
             setFosforoTotalResult((state) => ({ ...state, result: "favorable", obs: fosforoTotal.favorable }));
         } else {
             setFosforoTotalResult((state) => ({ ...state, result: "aceptable", obs: fosforoTotal.aceptable }));
@@ -17,10 +17,10 @@ export default function CompFosforo(props) {
     }, [fosforoTotalResult.value]);
 
     useEffect(() => {
-        const ortofostatos = props.compFosforo.ortofostatos;
-        setOrtofostatosResult((state) => ({ ...state, value: Number(searchParams.get("ortofostatos")) }));
-        setOrtofostatosResult((state) => ({ ...state, result: "favorable", obs: ortofostatos.favorable }));
-    }, [ortofostatosResult.value]);
+        const ortofosfatos = props.compFosforo.ortofosfatos;
+        setortofosfatosResult((state) => ({ ...state, value: Number(searchParams.get("ortofosfatos")) }));
+        setortofosfatosResult((state) => ({ ...state, result: "favorable", obs: ortofosfatos.favorable }));
+    }, [ortofosfatosResult.value]);
 
     return (
         <>
@@ -43,19 +43,19 @@ export default function CompFosforo(props) {
                                     Ortofosfatos (PO<sub>4</sub> <sup>3-</sup>)
                                 </strong>
                             </td>
-                            <td>{ortofostatosResult.value} mg/L</td>
+                            <td>{ortofosfatosResult.value} mg/L</td>
                             <td
                                 style={{
                                     backgroundColor:
-                                        ortofostatosResult.result === "favorable"
+                                        ortofosfatosResult.result === "favorable"
                                             ? "green"
-                                            : ortofostatosResult.result === "aceptable"
+                                            : ortofosfatosResult.result === "aceptable"
                                             ? "orange"
                                             : "red",
                                     color: "white",
                                 }}
                             >
-                                {ortofostatosResult.obs}
+                                {ortofosfatosResult.obs}
                             </td>
                         </tr>
                         <tr>

@@ -8,7 +8,7 @@ export default function Iones(props) {
     useEffect(() => {
         const cianuro = props.iones.cianuro;
         setCianuroTotalResult((state) => ({ ...state, value: Number(searchParams.get("cianuro")) }));
-        if (0 < cianuroTotalResult.value && cianuroTotalResult.value < 0.4) {
+        if (0 <= cianuroTotalResult.value && cianuroTotalResult.value < 0.4) {
             setCianuroTotalResult((state) => ({ ...state, result: "favorable", obs: cianuro.favorable }));
         } else if (0.4 <= cianuroTotalResult.value && cianuroTotalResult.value <= 0.5) {
             setCianuroTotalResult((state) => ({ ...state, result: "aceptable", obs: cianuro.aceptable }));

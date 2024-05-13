@@ -9,6 +9,7 @@ import Iones from "./components/form/iones";
 import Metales from "./components/form/metales";
 import Otros from "./components/form/otros";
 import Detergentes from "./components/form/detergentes";
+import Footer from "./Footer";
 
 function MainForm() {
     return (
@@ -32,6 +33,7 @@ function MainForm() {
                             <input type="submit" value="Analizar" />
                         </div>
                     </form>
+                    <Footer />
                 </main>
             </div>
         </>

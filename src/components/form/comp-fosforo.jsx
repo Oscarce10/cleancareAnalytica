@@ -8,7 +8,7 @@ export default function CompFosforo() {
                     <label>
                         Ortofosfatos (PO<sub>4</sub> <sup>3-</sup>)
                     </label>
-                    <input type="number" name="ortofostatos" required min="0" step="any" />
+                    <input type="number" name="ortofosfatos" required min="0" step="any" />
                     <span className="infotext">mg/L</span>
                 </div>
                 <div className="nice-form-group">
