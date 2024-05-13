@@ -42,7 +42,7 @@ export default function Detergentes(props) {
             setListDetegentes((state) => [
                 ...state,
                 {
-                    name: "BONZYME",
+                    name: "Bonzyme",
                     result: result,
                     obs: obs,
                 },
@@ -58,7 +58,7 @@ export default function Detergentes(props) {
             setListDetegentes((state) => [
                 ...state,
                 {
-                    name: "ENZIDINA PLUS®",
+                    name: "Enzidina Plus",
                     result: result,
                     obs: obs,
                 },
@@ -74,7 +74,7 @@ export default function Detergentes(props) {
             setListDetegentes((state) => [
                 ...state,
                 {
-                    name: "Enzymax-AHS",
+                    name: "Enzymax AHS",
                     result: result,
                     obs: obs,
                 },
@@ -90,7 +90,7 @@ export default function Detergentes(props) {
             setListDetegentes((state) => [
                 ...state,
                 {
-                    name: "EUCIDA ADVANCED",
+                    name: "Eucida Advanced",
                     result: result,
                     obs: obs,
                 },
@@ -146,7 +146,7 @@ export default function Detergentes(props) {
             setListDetegentes((state) => [
                 ...state,
                 {
-                    name: "OXIVIR FIVE 16",
+                    name: "Oxivir Five 16",
                     result: result,
                     obs: obs,
                 },
@@ -162,7 +162,7 @@ export default function Detergentes(props) {
             setListDetegentes((state) => [
                 ...state,
                 {
-                    name: "PERIFAR QX",
+                    name: "Perifar QX",
                     result: result,
                     obs: obs,
                 },
@@ -226,7 +226,7 @@ export default function Detergentes(props) {
             setListDetegentes((state) => [
                 ...state,
                 {
-                    name: "Prolub-UNO",
+                    name: "Prolub Uno",
                     result: result,
                     obs: obs,
                 },
@@ -258,7 +258,7 @@ export default function Detergentes(props) {
             setListDetegentes((state) => [
                 ...state,
                 {
-                    name: "WEST ZYMME ULTRA",
+                    name: "West Zymme Ultra",
                     result: result,
                     obs: obs,
                 },
