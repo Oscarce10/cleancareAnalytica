@@ -3,7 +3,7 @@ export default function Detergentes() {
         <>
             <section class="nice-form-group" id="sec-det">
                 <div className="href-target" id="detergentes" />
-                <h1>Detergentes</h1>
+                <h1>Insumos usados en el área de lavado instrumental</h1>
             </section>
 
             <section class="nice-form-group" id="sec-det">
