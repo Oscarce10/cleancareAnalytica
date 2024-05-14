@@ -51,9 +51,9 @@ export default function Generales(props) {
     useEffect(() => {
         const SST = props.generales.SST;
         setSSTResult((state) => ({ ...state, value: Number(searchParams.get("SST")) }));
-        if (0 <= SSTResult.value && SSTResult.value < 130) {
+        if (0 <= SSTResult.value && SSTResult.value < 45) {
             setSSTResult((state) => ({ ...state, result: "favorable", obs: SST.favorable }));
-        } else if (130 <= SSTResult.value && SSTResult.value <= 150) {
+        } else if (45 <= SSTResult.value && SSTResult.value <= 50) {
             setSSTResult((state) => ({ ...state, result: "aceptable", obs: SST.aceptable }));
         } else {
             setSSTResult((state) => ({ ...state, result: "desfavorable", obs: SST.desfavorable }));
@@ -75,9 +75,9 @@ export default function Generales(props) {
     useEffect(() => {
         const GyA = props.generales.GyA;
         setGyAResult((state) => ({ ...state, value: Number(searchParams.get("GyA")) }));
-        if (0 <= GyAResult.value && GyAResult.value < 130) {
+        if (0 <= GyAResult.value && GyAResult.value < 8) {
             setGyAResult((state) => ({ ...state, result: "favorable", obs: GyA.favorable }));
-        } else if (130 <= GyAResult.value && GyAResult.value <= 150) {
+        } else if (8 <= GyAResult.value && GyAResult.value <= 10) {
             setGyAResult((state) => ({ ...state, result: "aceptable", obs: GyA.aceptable }));
         } else {
             setGyAResult((state) => ({ ...state, result: "desfavorable", obs: GyA.desfavorable }));

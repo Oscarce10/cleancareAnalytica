@@ -74,10 +74,6 @@ export default function Detergentes() {
                     <input type="checkbox" name="d15" />
                     <label for="check-1">West Zymme Ultra</label>
                 </div>
-                <div class="nice-form-group">
-                    <input type="checkbox" name="d16" checked />
-                    <label for="check-1">Residuos Anatomopatológicos</label>
-                </div>
             </section>
             <section>
                 <p>

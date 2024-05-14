@@ -11,8 +11,8 @@
     },
     "DBO5": {
         "favorable": "El DBO<sub>5</sub> esta dentro de los valores permisibles",
-        "aceptable": "El DBO<sub>5</sub> esta proximo de valores límites permisibles (DBO5 mayor a 150)",
-        "desfavorable": "El DBO<sub>5</sub>  supera los valores límites permisibles (DBO5 mayor a 200)"
+        "aceptable": "El DBO<sub>5</sub> esta proximo de valores límites permisibles (DBO5 mayor a 50)",
+        "desfavorable": "El DBO<sub>5</sub>  supera los valores límites permisibles (DBO5 mayor a 50)"
     },
     "SST": {
         "favorable": "Los SST estan dentro de los valores permisibles",
@@ -27,7 +27,7 @@
     "GyA": {
         "favorable": "Las Grasas y Aceites estan dentro de los valores permisibles",
         "aceptable": "Las Grasas y Aceites estan proximas de valores límites permisibles (Grasas y Aceites mayor a 10)",
-        "desfavorable": "Las Grasas y Aceites superan los valores límites permisibles (Grasas y Aceites mayor a 150)"
+        "desfavorable": "Las Grasas y Aceites superan los valores límites permisibles (Grasas y Aceites mayor a 10)"
     },
     "Fenoles": {
         "favorable": "Los Fenoles estan dentro de los valores permisibles",
@@ -37,7 +37,7 @@
     "SAAM": {
         "favorable": "Los SAAM solo requieren ser analizados y reportados repecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015"
     },
-    "ortofosfatos": {
+    "ortofostatos": {
         "favorable": "Los Ortofosfatos solo requieren ser analizados y reportados respecto a a lo mencionado en la RESOLUCIÓN 631 DE 2015"
     },
     "fosforoTotal": {
@@ -78,7 +78,7 @@
     },
     "plata": {
         "favorable": "La Plata solo requieren ser analizados y reportados respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015",
-        "aceptable": "El Fósforo Total solo requiere ser analizado y reportados respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015. Sin embargo, estos valores pueden considerarse altos según algunas normativas internacionales como la legislación española que establece un valor máximo de (60 mg/L) como limite permitido."
+        "aceptable": "La Plata solo requieren ser analizada y reportada respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015.iSin embargo, estos valores pueden considerarse altos según algunas normativas internacionales como las de EE.UU que establece un valor máximo de (4,8 mg/l) y en Canadá con 5 (mg/l) como limite permitido."
     },
     "plomo": {
         "favorable": "El Plomo esta dentro de los valores permisibles ",

@@ -264,7 +264,7 @@ export default function Detergentes(props) {
                 },
             ]);
         }
-        if (searchParams.get("d16")) {
+        if (true) {
             let obs = "Sin observaciones";
             let result = "favorable";
             if (ph >= 6.8 && ph <= 8 && nitrogenoTotal > 20 && nitrogenoTotal < 70 && DBO5 >= 110) {
