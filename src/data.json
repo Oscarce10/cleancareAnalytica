@@ -1,88 +1,88 @@
 {
     "ph": {
-        "favorable": "El PH esta dentro de los valores permisibles",
-        "aceptable": "El PH esta próximo a superar los valores límites permisibles (PH menor a 6 o mayor a 9)",
+        "favorable": "El PH está dentro de los valores permisibles",
+        "aceptable": "El PH está próximo a superar los valores límites permisibles (PH menor a 6 o mayor a 9)",
         "desfavorable": "El PH supera los valores límites permisibles PH(menor a 6 o mayor a 9)"
     },
     "DQO": {
-        "favorable": "El DQO esta dentro de los valores permisibles",
-        "aceptable": "El DQO esta proximo a superar los valores límites permisibles (DQO mayor a 200)",
+        "favorable": "El DQO está dentro de los valores permisibles",
+        "aceptable": "El DQO está próximo a superar los valores límites permisibles (DQO mayor a 200)",
         "desfavorable": "El DQO  supera los valores límites permisibles (DQO mayor a 200)"
     },
     "DBO5": {
-        "favorable": "El DBO<sub>5</sub> esta dentro de los valores permisibles",
-        "aceptable": "El DBO<sub>5</sub> esta proximo de valores límites permisibles (DBO5 mayor a 50)",
+        "favorable": "El DBO<sub>5</sub> está dentro de los valores permisibles",
+        "aceptable": "El DBO<sub>5</sub> está próximo de valores límites permisibles (DBO5 mayor a 50)",
         "desfavorable": "El DBO<sub>5</sub>  supera los valores límites permisibles (DBO5 mayor a 50)"
     },
     "SST": {
-        "favorable": "Los SST estan dentro de los valores permisibles",
-        "aceptable": "Los SST estan proximos de valores límites permisibles (SST mayor a 50)",
+        "favorable": "Los SST están dentro de los valores permisibles",
+        "aceptable": "Los SST están próximos de valores límites permisibles (SST mayor a 50)",
         "desfavorable": "Los SST superan los valores límites permisibles (SST mayor a 50)"
     },
     "SSED": {
-        "favorable": "Los SSED estan dentro de los valores permisibles",
-        "aceptable": "Los SSED estan proximos de valores límites permisibles (SSED mayor a 5)",
+        "favorable": "Los SSED están dentro de los valores permisibles",
+        "aceptable": "Los SSED están próximos de valores límites permisibles (SSED mayor a 5)",
         "desfavorable": "Los SSED superan los valores límites permisibles (SSED mayor a 5)"
     },
     "GyA": {
-        "favorable": "Las Grasas y Aceites estan dentro de los valores permisibles",
-        "aceptable": "Las Grasas y Aceites estan proximas de valores límites permisibles (Grasas y Aceites mayor a 10)",
+        "favorable": "Las Grasas y Aceites están dentro de los valores permisibles",
+        "aceptable": "Las Grasas y Aceites eestán proximas de valores límites permisibles (Grasas y Aceites mayor a 10)",
         "desfavorable": "Las Grasas y Aceites superan los valores límites permisibles (Grasas y Aceites mayor a 10)"
     },
     "Fenoles": {
-        "favorable": "Los Fenoles estan dentro de los valores permisibles",
-        "aceptable": "Los Fenoles estan proximos de valores límites permisibles (Fenoles mayor a 5)",
+        "favorable": "Los Fenoles están dentro de los valores permisibles",
+        "aceptable": "Los Fenoles están próximos de valores límites permisibles (Fenoles mayor a 5)",
         "desfavorable": "Los Fenoles superan los valores límites permisibles (Fenoles mayor a 5)"
     },
     "SAAM": {
-        "favorable": "Los SAAM solo requieren ser analizados y reportados repecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015"
+        "favorable": "Los SAAM solo requieren ser analizados y reportados respecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015"
     },
     "ortofosfatos": {
-        "favorable": "Los Ortofosfatos solo requieren ser analizados y reportados respecto a a lo mencionado en la RESOLUCIÓN 631 DE 2015"
+        "favorable": "Los Ortofosfatos solo requieren ser analizados y reportados respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015"
     },
     "fosforoTotal": {
-        "favorable": "El Fósforo Total solo requieren ser analizados y reportados respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015",
-        "aceptable": "El Fósforo Total solo requiere ser analizado y reportados respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015. Sin embargo, estos valores pueden considerarse altos según algunas normativas internacionales como la legislación española que establece un valor máximo de (60 mg/L) como limite permitido."
+        "favorable": "El Fósforo Total solo requieren ser analizado y reportado respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015",
+        "aceptable": "El Fósforo Total solo requiere ser analizado y reportado respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015. Sin embargo, estos valores pueden considerarse altos según algunas normativas internacionales como la legislación española que establece un valor máximo de (60 mg/L) como límite permitido."
     },
     "nitratos": {
-        "favorable": "Los N-NO3- solo requieren ser analizados y reportados repecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015 "
+        "favorable": "Los N-NO3- solo requieren ser analizados y reportados respecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015 "
     },
     "nitritos": {
-        "favorable": "Los N-NO2- solo requieren ser analisados y reportados repectoa lo mencionado en la  RESOLUCIÓN 631 DE 2015 "
+        "favorable": "Los N-NO2- solo requieren ser analizados y reportados respecto lo mencionado en la  RESOLUCIÓN 631 DE 2015 "
     },
     "nitrogenoAmoniacal": {
-        "favorable": "Los N-NH3- solo requieren ser analizados y reportados respecto a a lo mencionado en la  RESOLUCIÓN 631 DE 2015"
+        "favorable": "Los N-NH3- solo requieren ser analizados y reportados respecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015"
     },
     "nitrogenoTotal": {
-        "favorable": "Los Nitrógeno Total (N) solo requieren ser analizados y reportados repecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015 "
+        "favorable": "Los Nitrógeno Total (N) solo requieren ser analizados y reportados respecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015 "
     },
     "cianuro": {
-        "favorable": "El Cianuro Total esta dentro de los valores permisibles",
-        "aceptable": "El Cianuro Total esta próximo a superar los valores límites permisibles (Cianuro Total mayor a 0.5)",
+        "favorable": "El Cianuro Total está dentro de los valores permisibles",
+        "aceptable": "El Cianuro Total está próximo a superar los valores límites permisibles (Cianuro Total mayor a 0.5)",
         "desfavorable": "El Cianuro Total supera los valores límites permisibles (Cianuro Total mayor a 0.5)"
     },
     "cadmio": {
-        "favorable": "El Cadmio esta dentro de los valores permisibles",
-        "aceptable": "El Cadmio esta próximo a superar los valores límites permisibles (Cadmio mayor a 0.05)",
+        "favorable": "El Cadmio está dentro de los valores permisibles",
+        "aceptable": "El Cadmio está próximo a superar los valores límites permisibles (Cadmio mayor a 0.05)",
         "desfavorable": "El Cadmio supera los valores límites permisibles (Cadmio mayor a 0.05)"
     },
     "cromo": {
-        "favorable": "El Cromo esta dentro de los valores permisibles ",
-        "aceptable": "El Cromo esta proximo de valores límites permisibles (Cromo mayor a 0.5)",
+        "favorable": "El Cromo está dentro de los valores permisibles ",
+        "aceptable": "El Cromo está proximo de valores límites permisibles (Cromo mayor a 0.5)",
         "desfavorable": "El Cromo supera los valores límites permisibles (Cromo mayor a 0.5)"
     },
     "mercurio": {
-        "favorable": "El Mercurio esta dentro de los valores permisibles ",
-        "aceptable": "El Mercurio esta próximo a superar los valores límites (Mercurio mayor a 0.01)",
+        "favorable": "El Mercurio está dentro de los valores permisibles ",
+        "aceptable": "El Mercurio está próximo a superar los valores límites (Mercurio mayor a 0.01)",
         "desfavorable": "El Mercurio supera los valores límites permisibles (Mercurio mayor a 0.01)"
     },
     "plata": {
-        "favorable": "La Plata solo requieren ser analizados y reportados respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015",
-        "aceptable": "La Plata solo requieren ser analizada y reportada respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015.iSin embargo, estos valores pueden considerarse altos según algunas normativas internacionales como las de EE.UU que establece un valor máximo de (4,8 mg/l) y en Canadá con 5 (mg/l) como limite permitido."
+        "favorable": "La Plata solo requieren ser analizada y reportada respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015",
+        "aceptable": "La Plata solo requieren ser analizada y reportada respecto a lo mencionado en la RESOLUCIÓN 631 DE 2015.iSin embargo, estos valores pueden considerarse altos según algunas normativas internacionales como las de EE.UU que establece un valor máximo de (4,8 mg/l) y en Canadá con 5 (mg/l) como límite permitido."
     },
     "plomo": {
-        "favorable": "El Plomo esta dentro de los valores permisibles ",
-        "aceptable": "El Plomo esta próximo a superar los valores límites permisibles (Plomo mayor a 0.1)",
+        "favorable": "El Plomo está dentro de los valores permisibles ",
+        "aceptable": "El Plomo está próximo a superar los valores límites permisibles (Plomo mayor a 0.1)",
         "desfavorable": "El Plomo supera los valores límites permisibles (Plomo mayor a 0.1)"
     },
     "acidez": {
@@ -101,49 +101,49 @@
         "favorable": "El Color Real solo requiere ser analizado y reportado respecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015"
     },
     "d01": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Alkazyme ,se sugiere una revisión del manual de uso del producto ,links sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EbY-ekknPwJNv85jQt7y3HcBWkS9HBB8j5Qei9Ds6DnmXg?e=I6IsfL' target='_blank' >ALKAZYME.pdf</a>)"
+        "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del Alkazyme ,se sugiere una revisión del manual de uso del producto ,enlace sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EbY-ekknPwJNv85jQt7y3HcBWkS9HBB8j5Qei9Ds6DnmXg?e=I6IsfL' target='_blank' >alkazyme.pdf</a>)"
     },
     "d02": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del BONZYME ,se sugiere una rebicion del manual de uso del producto ,links sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/ETTlrWt5nAxPmVmxr9rdhjwBsg3bf7CYHfApFuOUvE8Jgg?e=8HoQ1e' target='_blank' >BONZYME.pdf</a>)"
+        "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del BONZYME ,se sugiere una rebicion del manual de uso del producto ,enlace sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/ETTlrWt5nAxPmVmxr9rdhjwBsg3bf7CYHfApFuOUvE8Jgg?e=8HoQ1e' target='_blank' >bonzyme.pdf</a>)"
     },
     "d03": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del ENZIDINA PLUS®, se sugiere una revisión del manual de uso del producto ,links sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/Ec1J7MyJzghFvf5PQHeWgS8BVYuYjPs9RA-uYY0ohvcaAA?e=OTCRrb' target='_blank' >ENZIDINA-PLUS.pdf</a>)"
+        "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del ENZIDINA PLUS®, se sugiere una revisión del manual de uso del producto ,enlace sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/Ec1J7MyJzghFvf5PQHeWgS8BVYuYjPs9RA-uYY0ohvcaAA?e=OTCRrb' target='_blank' >enzidina-plus.pdf</a>)"
     },
     "d04": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Enzymax-AHS ,se sugiere una revisión del manual de uso del producto ,links sugerido (<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/Eb3Sy0Mm2JVKsKoxj1d3Hv8Bgp39MCI0y5NvZEX1IEt3lw?e=l8e9Mn' target='_blank' >Enzymax-ahs.pdf</a>)"
+        "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del Enzymax-AHS ,se sugiere una revisión del manual de uso del producto ,enlace sugerido (<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/Eb3Sy0Mm2JVKsKoxj1d3Hv8Bgp39MCI0y5NvZEX1IEt3lw?e=l8e9Mn' target='_blank' >enzymax-ahs.pdf</a>)"
     },
     "d05": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del EUCIDA ADVANCED ,se sugiere una revisión del manual de uso del producto ,links sugerido (<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EYxfbAzhx6xOnohQ3FNtn-YBF41acIZVoVEskLVXMuWJGw?e=SSfboS' target='_blank' >Eucida Advanced.pdf</a>)"
+        "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del EUCIDA ADVANCED ,se sugiere una revisión del manual de uso del producto ,enlace sugerido (<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EYxfbAzhx6xOnohQ3FNtn-YBF41acIZVoVEskLVXMuWJGw?e=SSfboS' target='_blank' >eucid-advanced.pdf</a>)"
     },
     "d06": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Glutfar Plus HLD ,se sugiere una revisión del manual de uso del producto ,links sugerido (<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EfddUhLs8HZLk28uMvfo8_gB2dn47g80SiB98t_Z4tHtFg?e=gjm6O1' target='_blank' >GLUTFAR PLUS.pdf</a>)"
+        "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del Glutfar Plus HLD ,se sugiere una revisión del manual de uso del producto ,enlace sugerido (<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EfddUhLs8HZLk28uMvfo8_gB2dn47g80SiB98t_Z4tHtFg?e=gjm6O1' target='_blank' >glutfar-plus-hdl.pdf</a>)"
     },
     "d07": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Ironcleaner ,se sugiere una revisión del manual de uso del producto ,links sugerido (<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EfzCdeW3zshInxXnYIM3FQ0BhRbmU8MY9DmzGNOHWHQsZw?e=7JgjF8' target='_blank' >Ironcleaner.pdf</a>)"
+        "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del Ironcleaner ,se sugiere una revisión del manual de uso del producto ,enlace sugerido (<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EfzCdeW3zshInxXnYIM3FQ0BhRbmU8MY9DmzGNOHWHQsZw?e=7JgjF8' target='_blank' >ironcleaner.pdf</a>)"
     },
     "d08": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del OXIVIR FIVE 16 ,se sugiere una revisión del manual de uso del producto ,links sugerido (<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EdUcYPjXhoxMv2hBVJfhixUBcoTlQ4ZTi1rbswxXuuSg9g?e=JdbQaw' target='_blank' >OXIVIR FIVE 16.pdf</a>)"
+        "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del OXIVIR FIVE 16 ,se sugiere una revisión del manual de uso del producto ,enlace sugerido (<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EdUcYPjXhoxMv2hBVJfhixUBcoTlQ4ZTi1rbswxXuuSg9g?e=JdbQaw' target='_blank' >oxivir-five-16.pdf</a>)"
     },
     "d09": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del PERIFAR QX ,se sugiere una revisión del manual de uso del producto ,links sugerido (<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EXO2oWDsg-ROrM2ptCJD75sBevxsrIkUUGYcSG9O_rOrWQ?e=tCAj9b' target='_blank' >PERIFAR QX.pdf</a>)"
+        "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del PERIFAR QX ,se sugiere una revisión del manual de uso del producto ,enlace sugerido (<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EXO2oWDsg-ROrM2ptCJD75sBevxsrIkUUGYcSG9O_rOrWQ?e=tCAj9b' target='_blank' >perifar-qx.pdf</a>)"
     },
     "d10": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Premixslip ,se sugiere una revisión del manual de uso del producto ,links sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EUPSed7nbvJPjA3f9GDEy6cBhH1MchOQ_JdAx3S4ckLDdA?e=oCaP2N'  target='_blank' >PREMIXSLIP.pdf</a>"
+        "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del Premixslip ,se sugiere una revisión del manual de uso del producto ,enlace sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EUPSed7nbvJPjA3f9GDEy6cBhH1MchOQ_JdAx3S4ckLDdA?e=oCaP2N'  target='_blank' >premixslip.pdf</a>"
     },
     "d11": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Proasepsis ,se sugiere una revisión del manual de uso del producto ,links sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EUAuB-voXMhBuoWfvNa27jsBdlbjzyKy5jAJRhjtDhB5GQ?e=0IbXIx' target='_blank' >PROASEPSIS.pdf</a>)"
+        "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del Proasepsis ,se sugiere una revisión del manual de uso del producto ,enlace sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EUAuB-voXMhBuoWfvNa27jsBdlbjzyKy5jAJRhjtDhB5GQ?e=0IbXIx' target='_blank' >Prosepsis.pdf</a>)"
     },
     "d12": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Prodet-Uno ,se sugiere una revisión del manual de uso del producto ,links sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/ESOEJEtc2ztBjXnND0o-sIYBoR_o6YRkkBBTB5p5K5QXog?e=1yzduq' target='_blank' >Prodet Uno.pdf</a>)"
+        "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del Prodet-Uno ,se sugiere una revisión del manual de uso del producto ,enlace sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/ESOEJEtc2ztBjXnND0o-sIYBoR_o6YRkkBBTB5p5K5QXog?e=1yzduq' target='_blank' >prodet_uno.pdf</a>)"
     },
     "d13": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Prolub-UNO ,se sugiere una revisión del manual de uso del producto ,links sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EZuMhMUItxFAnIRUyqgWqecB6QKE76oWuarMHeDg-iPttw?e=0T0FU0' target='_blank' >Prolub-UNO.pdf</a>)"
+        "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del Prolub-UNO ,se sugiere una revisión del manual de uso del producto ,enlace sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EZuMhMUItxFAnIRUyqgWqecB6QKE76oWuarMHeDg-iPttw?e=0T0FU0' target='_blank' >prolub-uno.pdf</a>)"
     },
     "d14": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del Surgistain ,se sugiere una revisión del manual de uso del producto ,links sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EcwNsAtYeC5Pg21WM08v3fYBY_XR2dDyg5ZgcNSqm26_NA?e=iDHoAw' target='_blank' >Surgistain.pdf</a>)"
+        "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del Surgistain ,se sugiere una revisión del manual de uso del producto ,enlace sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EcwNsAtYeC5Pg21WM08v3fYBY_XR2dDyg5ZgcNSqm26_NA?e=iDHoAw' target='_blank' >surgistain.pdf</a>)"
     },
     "d15": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala practica del WEST ZYMME ULTRA,se sugiere una revisión del manual de uso del producto ,links sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EaUur06nDWZEjTIFUwxMwv0BGRJTqQ1vdGXprL6tR77ucg?e=Sv7SGx' target='_blank' >West zymme ultra.pdf</a>)"
+        "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del WEST ZYMME ULTRA,se sugiere una revisión del manual de uso del producto ,enlace sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EaUur06nDWZEjTIFUwxMwv0BGRJTqQ1vdGXprL6tR77ucg?e=Sv7SGx' target='_blank' >West zymme ultra.pdf</a>)"
     },
     "d16": {
         "desfavorable": "Posiblemente se está dejando pasar grandes cantidades de materia orgánica (Sangre ,tejidos, líquido amniótico, excreciones ETC )"
