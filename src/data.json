@@ -1,8 +1,8 @@
 {
     "ph": {
         "favorable": "El PH está dentro de los valores permisibles",
-        "aceptable": "El PH está próximo a superar los valores límites permisibles (PH menor a 6 o mayor a 9)",
-        "desfavorable": "El PH supera los valores límites permisibles PH(menor a 6 o mayor a 9)"
+        "aceptable": "El PH está próximo a superar los valores límite permisibles (PH menor a 6 o mayor a 9)",
+        "desfavorable": "El PH supera los valores límites permisibles PH (menor a 6 o mayor a 9)"
     },
     "DQO": {
         "favorable": "El DQO está dentro de los valores permisibles",
@@ -26,7 +26,7 @@
     },
     "GyA": {
         "favorable": "Las Grasas y Aceites están dentro de los valores permisibles",
-        "aceptable": "Las Grasas y Aceites eestán proximas de valores límites permisibles (Grasas y Aceites mayor a 10)",
+        "aceptable": "Las Grasas y Aceites están próximas de valores límites permisibles (Grasas y Aceites mayor a 10)",
         "desfavorable": "Las Grasas y Aceites superan los valores límites permisibles (Grasas y Aceites mayor a 10)"
     },
     "Fenoles": {
@@ -104,7 +104,7 @@
         "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del Alkazyme ,se sugiere una revisión del manual de uso del producto ,enlace sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EbY-ekknPwJNv85jQt7y3HcBWkS9HBB8j5Qei9Ds6DnmXg?e=I6IsfL' target='_blank' >alkazyme.pdf</a>)"
     },
     "d02": {
-        "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del BONZYME ,se sugiere una rebicion del manual de uso del producto ,enlace sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/ETTlrWt5nAxPmVmxr9rdhjwBsg3bf7CYHfApFuOUvE8Jgg?e=8HoQ1e' target='_blank' >bonzyme.pdf</a>)"
+        "desfavorable": "Posiblemente se está incurriendo en una mala práctica del BONZYME, se sugiere una revisión del manual de uso del producto, enlace sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/ETTlrWt5nAxPmVmxr9rdhjwBsg3bf7CYHfApFuOUvE8Jgg?e=8HoQ1e' target='_blank' >bonzyme.pdf</a>)"
     },
     "d03": {
         "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del ENZIDINA PLUS®, se sugiere una revisión del manual de uso del producto ,enlace sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/Ec1J7MyJzghFvf5PQHeWgS8BVYuYjPs9RA-uYY0ohvcaAA?e=OTCRrb' target='_blank' >enzidina-plus.pdf</a>)"
@@ -146,6 +146,6 @@
         "desfavorable": "Posiblemente se esta incurriendo en una mala práctica del WEST ZYMME ULTRA,se sugiere una revisión del manual de uso del producto ,enlace sugerido(<a href='https://udistritaleduco-my.sharepoint.com/:b:/g/personal/jayarav_udistrital_edu_co/EaUur06nDWZEjTIFUwxMwv0BGRJTqQ1vdGXprL6tR77ucg?e=Sv7SGx' target='_blank' >West zymme ultra.pdf</a>)"
     },
     "d16": {
-        "desfavorable": "Posiblemente se está dejando pasar grandes cantidades de materia orgánica (Sangre ,tejidos, líquido amniótico, excreciones ETC )"
+        "desfavorable": "Posiblemente se está dejando pasar grandes cantidades de materia orgánica (Sangre, tejidos, líquido amniótico, excreciones, etc.)"
     }
 }
