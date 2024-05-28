@@ -31,8 +31,8 @@
     },
     "Fenoles": {
         "favorable": "Los Fenoles están dentro de los valores permisibles",
-        "aceptable": "Los Fenoles están próximos de valores límites permisibles (Fenoles mayor a 5)",
-        "desfavorable": "Los Fenoles superan los valores límites permisibles (Fenoles mayor a 5)"
+        "aceptable": "Los Fenoles están próximos de valores límites permisibles (Fenoles mayor a 0.2)",
+        "desfavorable": "Los Fenoles superan los valores límites permisibles (Fenoles mayor a 0.2)"
     },
     "SAAM": {
         "favorable": "Los SAAM solo requieren ser analizados y reportados respecto a lo mencionado en la  RESOLUCIÓN 631 DE 2015"
